@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { AiFillPlayCircle } from "react-icons/ai";
-
 import api from './api'
 
 //styles
@@ -33,7 +31,7 @@ export function App(){
         <input  type="text" placeholder="Digite aqui seu cep"  onChange={(e) => setInput(e.target.value)} />
 
         <button className="button" onClick={AiFillPlayCircle}>
-          <FiSearch size="25" color="#FFF" />
+          <AiFillPlayCircle size="25" color="#FFF" />
         </button>
       </div>
 
