@@ -63,3 +63,9 @@
 .container-form span{
    margin-bottom: 12px;
 }
+
+@media(max-width:500px){
+   .container h1{
+      font-size: 25px;
+   }
+}
