@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FiSearch } from "react-icons/fi";
+import { AiFillPlayCircle } from "react-icons/ai";
 
 import api from './api'
 
@@ -32,7 +32,7 @@ export function App(){
       <div className="container-Input">
         <input  type="text" placeholder="Digite aqui seu cep"  onChange={(e) => setInput(e.target.value)} />
 
-        <button className="button" onClick={handleSearch}>
+        <button className="button" onClick={AiFillPlayCircle}>
           <FiSearch size="25" color="#FFF" />
         </button>
       </div>
