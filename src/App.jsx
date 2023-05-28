@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AiFillPlayCircle } from "react-icons/ai";
 import api from './api'
 
 //styles
@@ -19,7 +20,7 @@ export function App(){
       setInput("");
     } catch{
       alert("Ops erro no Cep digite outro");
-      setInput=("");
+      setInput("");
     } 
   }
 
