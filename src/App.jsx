@@ -26,7 +26,7 @@ export function App(){
 
   return(
     <div className="container">
-      <h1>Procure aqui seu endereço</h1>
+      <h1>Encontre aqui seu Cep</h1>
 
       <div className="container-Input">
         <input  type="text" placeholder="Digite aqui seu cep"  onChange={(e) => setInput(e.target.value)} />
